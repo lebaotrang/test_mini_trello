@@ -1,0 +1,24 @@
+.darkTheme {
+    background-color: #2f3840;
+    color: #7f8590;
+}
+.cardNullBoard {
+  background-color: transparent; /* nền trong suốt */
+  border: 1px solid #7f8590;        /* viền màu xám */
+  display: flex;
+  justify-content: center;       /* căn giữa ngang */
+  align-items: center;           /* căn giữa dọc */
+  padding: 0;
+  box-sizing: border-box;
+  color: #7f8590;
+}
+
+.cardNullBoard .card-body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;       
+  align-items: center;           
+  height: 100%;
+}

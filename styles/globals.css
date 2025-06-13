@@ -1,0 +1,89 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cardTopRightMenu {
+  top: 100%;
+  right: 0;
+  background-color: #fff;           
+  border: '1px solid #e0e0e0';        
+  border-radius: 8px;                 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+  z-index: 100;
+  min-width: 120px;                   
+  padding: 8px 0;                   
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-white {
+  color: white;
+}
+
+.cardNullBoard {
+  background-color: transparent; 
+  border: 1px solid #7f8590;  
+  display: flex;
+  justify-content: center;      
+  align-items: center;        
+  box-sizing: border-box;
+  color: #7f8590;
+  min-height: 100px;
+}
+
+.cardNullBoard .card-body {
+  display: flex;
+  justify-content: center;       
+  align-items: center;           
+}
+
+.sub-menu {
+  height: 50px;
+  background-color: #743254;
+  color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

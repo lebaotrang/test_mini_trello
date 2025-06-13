@@ -1,0 +1,21 @@
+{
+  "list_product": "Danh sách sản phẩm",
+  "submit": "Gửi",
+  "login": "Đăng nhập",
+  "profile": "Hồ sơ",
+  "home": "Trang chủ",
+  "update_info": "Cập nhật thông tin",
+  "language": "Ngôn ngữ",
+  "change_password": "Đổi mật khẩu",
+  "logout": "Đăng xuất",
+  "profile_page": "Trang cá nhân",
+  "select_language": "Chọn ngôn ngữ",
+  "add_to_cart": "Thêm vào giỏ",
+  "footer": {
+    "rights": "Bản quyền",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "privacy": "Chính sách"
+  }
+
+}

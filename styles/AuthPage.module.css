@@ -1,0 +1,18 @@
+.bgBottomLeft {
+  max-height: 350px;
+  bottom: 0px;
+  left: 0px;
+}
+.bgBottomRight {
+  max-height: 350px;
+  bottom: 0px;
+  right: 0px;
+}
+.authPage input {
+  height: 50px;
+  border-radius: 0 !important;
+}
+.authPage button {
+  height: 50px;
+  border-radius: 0 !important;
+}

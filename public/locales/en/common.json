@@ -1,0 +1,21 @@
+{
+  "list_product": "List Products",
+  "submit": "Submit",
+  "login": "Login",
+  "profile": "Profile",
+  "home": "Home",
+  "update_info": "Update Information",
+  "language": "Language",
+  "change_password": "Change Password",
+  "logout": "Logout",
+  "profile_page": "Profile Page",
+  "select_language": "Select Language",
+  "add_to_cart": "Add to cart",
+  "footer": {
+    "rights": "Bản quyền đã được bảo hộ.",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "privacy": "Chính sách"
+  }
+
+}
